@@ -9,9 +9,6 @@ driver.get("https://www.instagram.com/accounts/login/")
 username = driver.find_element_by_name("username")
 password = driver.find_element_by_name("password")
 
-print(username)
-print(password)
-
 username.send_keys("*****") #Replace your username
 password.send_keys("*****") #Replace your password
 
